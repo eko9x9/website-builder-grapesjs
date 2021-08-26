@@ -1,4 +1,5 @@
-import '../styles/globals.css'
+import 'grapesjs/dist/css/grapes.min.css';
+import "../assets/styles/main.scss";
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
